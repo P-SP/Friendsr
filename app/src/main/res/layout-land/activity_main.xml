@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="5dp"
     tools:context="com.example.eigenaar.friendsr.MainActivity">
 
     <GridView
         android:id="@+id/gridviewFriends"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:columnWidth="75dp"
+        android:columnWidth="100dp"
+        android:layout_margin="12dp"
         android:layout_gravity="center"
         android:horizontalSpacing="10dp"
         android:numColumns="auto_fit"
